@@ -219,7 +219,7 @@ def result_visualization(x_test, y_test, result):
 
 if __name__ == "__main__":
     # 读取数据
-    data_set = pd.read_csv('E:\\GitHub\\iris_classification_BPNeuralNetwork\\bpnn_V2数据集\\iris_training.csv', header=None)
+    data_set = pd.read_csv('D:\\GitHub\\iris_classification_BPNeuralNetwork\\bpnn_V2数据集\\iris_training.csv', header=None)
 
     # 第1种取数据方法：
     X = data_set.iloc[:, 0:4].values.T          # 前四列是特征，T表示转置
@@ -246,7 +246,7 @@ if __name__ == "__main__":
     print("用时：" + str((end_time - start_time).seconds) + 's' + str(round((end_time - start_time).microseconds / 1000)) + 'ms')
 
     # 对模型进行测试
-    data_test = pd.read_csv('E:\\GitHub\\iris_classification_BPNeuralNetwork\\bpnn_V2数据集\\iris_test.csv', header=None)
+    data_test = pd.read_csv('D:\\GitHub\\iris_classification_BPNeuralNetwork\\bpnn_V2数据集\\iris_test.csv', header=None)
     x_test = data_test.iloc[:, 0:4].values.T
     y_test = data_test.iloc[:, 4:].values.T
     y_test = y_test.astype('uint8')
