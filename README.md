@@ -1,5 +1,5 @@
 # iris_classification_BPNeuralNetwork
-
+>这是一个基于bp神经网络实现鸢尾花分类的算法。
 > 本文用Python实现了BP神经网络分类算法，根据鸢尾花的4个特征，实现3种鸢尾花的分类。
 > 算法参考文章：[纯Python实现鸢尾属植物数据集神经网络模型](https://yq.aliyun.com/articles/614411?utm_content=m_1000007130#)
 
